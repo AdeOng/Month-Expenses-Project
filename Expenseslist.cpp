@@ -147,6 +147,7 @@ void Expenseslist::Edit_expense()
 	char nametmp[100];
 	cout << "Please enter the name of the expense you'd like to edit: ";
 	cin >> nametmp;
+	cin.ignore();
 	if (choice == 1)
 	{
 		for (int i=0; i<size; i++)
