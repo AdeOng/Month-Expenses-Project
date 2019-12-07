@@ -33,7 +33,7 @@ int main()
 			x1.Search_expense();
 			break;
 		case 3:
-			cout << "LESA" << endl;
+			x1.Delete_expense;
 			break;
 		case 4:
 			x1.Edit_expense();
